@@ -1,0 +1,31 @@
+{
+  "name": "node-server-template",
+  "version": "1.0.0",
+  "description": "Template to create node server with express framework.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "prod:start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalika123900-company/node-server-template.git"
+  },
+  "keywords": [],
+  "author": "Vikrant Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalika123900-company/node-server-template/issues"
+  },
+  "homepage": "https://github.com/kalika123900-company/node-server-template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
